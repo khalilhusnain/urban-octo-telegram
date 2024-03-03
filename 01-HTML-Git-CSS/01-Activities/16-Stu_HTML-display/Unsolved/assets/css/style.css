@@ -1,0 +1,61 @@
+header {
+  width: 100%;
+  background-color: lightblue;
+}
+
+h2 {
+  text-align: left;
+}
+
+ul {
+  display: flex;
+  justify-content: right;
+  color: #ffffff;
+}
+
+/* List items in navigation bar */
+li {
+  /* TODO: Add your code here */
+  
+  list-style-type: none;
+  font-size: 40px;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Boxes */
+img {
+  /* TODO: Add your code here */
+  display: inline;
+  margin: 0 auto;
+}
+
+#item-1 {
+  background-color: #e0115f;
+  align-items: center;
+}
+
+#item-2 {
+  align-items: center;
+  background-color: #0000ff;
+}
+
+#item-3 {
+  align-items: center;
+  background-color: #999900;
+}
+
+/* Box 3 */
+#image-3 {
+  /* TODO: Add your code here */
+  /* display: none; */
+}
+
+.imageStyle{
+  margin-left: 5px;
+  /* border: 5px solid black; */
+  /* margin: 2px; */
+}
